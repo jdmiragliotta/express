@@ -1,0 +1,22 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdmiragliotta/express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdmiragliotta/express/issues"
+  },
+  "homepage": "https://github.com/jdmiragliotta/express#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2"
+  }
+}
