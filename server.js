@@ -3,12 +3,14 @@ var bodyParser = require("body-parser");
 var app = express();
 var PORT = 3000;
 var email = "a@a.com";
-var password ="password";
+var password ="password" + ;
+
+var num = 
 
 app.use(bodyParser.urlencoded({extended: false}));
 
 
-app.get("/home", function(req, res){
+app.get("/", function(req, res){
   res.sendFile(process.cwd() + "/home.html");
 });
 
